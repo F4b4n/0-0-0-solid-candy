@@ -1,4 +1,4 @@
-import logo from '././assets/cat.png';
+import logo from '././assets/catc.png';
 import styles from './App.module.css';
 
 function App() {

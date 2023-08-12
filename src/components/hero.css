@@ -1,0 +1,11 @@
+.imgx {
+  background: url(/src/assets/replacegif3.gif) no-repeat center;
+  background-size: cover;
+}
+
+.imgx img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 50vw;
+}

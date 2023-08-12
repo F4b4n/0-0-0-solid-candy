@@ -1,8 +1,11 @@
-import logo from '././assets/catc.png';
+import logo from './assets/cat.png';
 import styles from './App.module.css';
+import Hero from '/src/components/Hero';
 
 function App() {
   return (
+    <>
+    <Hero />
     <div class={styles.App}>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
@@ -19,6 +22,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 

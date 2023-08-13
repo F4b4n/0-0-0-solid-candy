@@ -1,11 +1,13 @@
 import logo from './assets/cat.png';
 import styles from './App.module.css';
 import Hero from '/src/components/Hero';
+import Text from './components/Text';
 
 function App() {
   return (
     <>
     <Hero />
+    <Text />
     <div class={styles.App}>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />

@@ -1,6 +1,5 @@
 import "./hero.css";
 import heroimg from "/src/assets/hero-main.webp";
-import repl from "/src/assets/replacegif.webp"
 
 function Hero() {
   return (

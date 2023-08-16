@@ -1,16 +1,15 @@
-import "./text.css";
+import styles from '../App.module.css/';
+import { texts } from "../assets/texts/texts.js";
 
 function Text() {
   return (
-    <>
-    <h2>
-    Lorem ipsum dolor sit amet.
-    </h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, consectetur fugiat! Cum iste voluptate eaque obcaecati corrupti iure animi, enim suscipit exercitationem voluptatum libero minus recusandae, tempora aspernatur? Tempore officiis iste tempora quae animi ad!
-    </p>
-    </>
+    <div class={styles.intro}>
+      <h2>{texts.first.heading}</h2>
+      {texts.first.paragraphs.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
   );
-}
+};
 
 export default Text;

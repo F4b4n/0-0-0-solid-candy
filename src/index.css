@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: Pixel;
+  src: url(/src/assets/fonts/PixelEmulator-xq08.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: DDroid;
+  src: url(/src/assets/fonts/DisposableDroidBB.ttf) format('truetype');
+}
+
+:root {
+  color: #fff;
+  font-family: DDroid;
+  font-size: 20px;
+  text-shadow: 1px 1px #000;
+}
+
+h2 {
+  font-family: Pixel;
+  font-size: clamp(1.5rem, 2.5vw, 6rem);
+  padding: 1rem;
+  text-align: center;
+}
+
+p {
+  font-size: clamp(1rem, 1vw, 4rem);
+  padding: 0.5rem 2rem;
 }

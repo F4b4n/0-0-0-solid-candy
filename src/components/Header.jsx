@@ -1,15 +1,12 @@
 import styles from '../App.module.css/';
 import { texts } from "../assets/texts/texts.js";
 
-function Text() {
+function Header() {
   return (
-    <div class={styles.intro}>
+    <div class={styles.header1}>
       <h2>{texts.first.heading}</h2>
-      {texts.first.paragraphs.map((paragraph) => (
-        <p>{paragraph}</p>
-      ))}
     </div>
   );
 };
 
-export default Text;
+export default Header;

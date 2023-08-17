@@ -1,35 +1,20 @@
-import logo from "./assets/cat.png";
-import styles from "./App.module.css";
 import Hero from "/src/components/Hero";
-import Text from "./components/Text";
+import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Intro from "./pages/Intro";
+import Tomasina from "./pages/Tomasina";
 import { Route, Routes } from "@solidjs/router";
 
 function App() {
   return (
     <>
       <Hero />
-      <Text />
-     <Navbar />
+      <Header />
+      <Navbar />
       <Routes>
-        <Route path="/" component={Hero} />
+        <Route path="/" component={Intro} />
+        <Route path="/Tomasina" component={Tomasina} />
       </Routes>
-      <div class={styles.App}>
-        <header class={styles.header}>
-          <img src={logo} class={styles.logo} alt="logo" />
-          <p>
-            Edit <code>src/App.jsx</code> and save to reload.
-          </p>
-          <a
-            class={styles.link}
-            href="https://github.com/solidjs/solid"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Solid
-          </a>
-        </header>
-      </div>
     </>
   );
 }

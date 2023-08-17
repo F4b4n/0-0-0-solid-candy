@@ -1,4 +1,4 @@
-.intro {
+.header1 {
   background-image: linear-gradient(#E0218A, #0300aa);
 }
 
@@ -13,4 +13,12 @@
 .nav A {
   color: #fff;
   padding: 0 1rem;
+}
+
+.intro {
+  background-image: linear-gradient(170deg ,#0300aa 70%, #E0218A);
+}
+
+.tomasina {
+  color: red;
 }

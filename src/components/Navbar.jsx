@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div class={styles.nav}>
       <A href="/">Intro</A>
-      <A href="/">My diary</A>
-      <A href="/">Media</A>
-      <A href="/">Advice</A>
-      <A href="/">Tomasina</A>
+      <A href="/Diary">Diary</A>
+      <A href="/Candygram">Candygram</A>
+      <A href="/Advice">Advice</A>
+      <A href="/Tomasina">Tomasina</A>
     </div>
   );
 }

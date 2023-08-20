@@ -5,10 +5,10 @@
 .nav {
   align-items: center;
   background-color: #0300aa;
-  
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 .nav A {
   color: #fff;
@@ -21,4 +21,11 @@
 
 .tomasina {
   color: red;
+}
+
+.tomasina img {
+  float: right;
+  height: auto;
+  width: clamp(300px, 30%, 30%);
+  padding: 0.5rem 0 0.5rem 1rem;
 }

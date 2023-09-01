@@ -1,0 +1,17 @@
+.tomasina {
+  background-color: turquoise;
+  overflow: hidden;
+}
+
+.tomasina img {
+  float: right;
+  height: auto;
+  width: clamp(300px, 30%, 30%);
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+@media (max-width: 430px) {
+  .tomasina img {
+    width: 100%;
+  }
+}

@@ -1,11 +1,12 @@
 import { tomasina } from "../assets/texts/tomasina.js";
-import styles from '../App.module.css/';
+import styles from '../styles/tomasina.module.css';
 import candymg from '../assets/imgs/candyattomasina.webp';
 
  function Tomasina() {
 
   return (
     <div class={styles.tomasina}>
+      <object data="/src/assets/imgs/svgwaves.svg" type="image/svg+xml"></object>
       <h2>{tomasina.first.heading}</h2>
       <img
         src={candymg}
@@ -15,7 +16,7 @@ import candymg from '../assets/imgs/candyattomasina.webp';
       {tomasina.paragraphs.map((paragraph) => (
         <p>{paragraph}</p>
       ))}
-      <p>And the rest is catsory.. thank you <a href="http://tomasinasanctuary.org/">TOMASINCA CAT SANCTUARY!</a></p>
+      <p>And the rest is catstory.. thank you <a href="http://tomasinasanctuary.org/">TOMASINCA CAT SANCTUARY!</a></p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import styles from '../App.module.css/';
+import styles from '../styles/header.module.css';
 import { texts } from "../assets/texts/texts.js";
 
 function Header() {

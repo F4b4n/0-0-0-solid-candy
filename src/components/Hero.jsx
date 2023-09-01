@@ -1,9 +1,9 @@
-import "./hero.css";
+import styles from "../styles/hero.module.css";
 import heroimg from "/src/assets/hero-main.webp";
 
 function Hero() {
   return (
-    <div class="imgx">
+    <div class={styles.imgx}>
       <img
         src={heroimg}
         

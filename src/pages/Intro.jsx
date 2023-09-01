@@ -1,4 +1,4 @@
-import styles from '../App.module.css/';
+import styles from '../styles/intro.module.css';
 import { intro } from "../assets/texts/intro.js";
 
 // console.log({texts});

@@ -1,4 +1,4 @@
-import styles from "../App.module.css";
+import styles from "../styles/nav.module.css";
 import { A } from "@solidjs/router";
 
 function Navbar() {

@@ -14,6 +14,11 @@
   src: url(/src/assets/fonts/DisposableDroidBB.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(/src/assets/fonts/montserrat.woff2) format('woff2');
+}
+
 :root {
   color: #fff;
   font-family: DDroid;

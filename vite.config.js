@@ -12,6 +12,7 @@ export default defineConfig({
     solidPlugin(),
   ],
   server: {
+    host: true,
     port: 3000,
   },
   build: {

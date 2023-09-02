@@ -1,17 +1,82 @@
 .tomasina {
-  background-color: turquoise;
+  background-image: linear-gradient(30deg, #ffffff80 5%, #ffff00cc 10%, #ffa500e6 13%, #ff0000cc 14%, #ffff00cc 20%, #ffff0033 30%, #ffffff80 70%);
+  color: #000;
   overflow: hidden;
 }
 
-.tomasina img {
+.tomasina > * {
+  font-family: Montserrat;
+  text-shadow: 0px 0px 3px #fff;
+}
+
+.tomasina a {
+  /* 4FF */
+  color: #000;
+}
+
+.tomasina figure {
+  -webkit-filter: drop-shadow(0 0 15px yellow) drop-shadow(0 0 25px orange) drop-shadow(0 0 35px red);
+  filter: drop-shadow(0 0 15px yellow) drop-shadow(0 0 25px orange) drop-shadow(0 0 35px red);
   float: right;
-  height: auto;
   width: clamp(300px, 30%, 30%);
-  padding: 0.5rem 0 0.5rem 1rem;
+
+}
+
+.tomasina figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: end;
+
+  padding: 0.5rem;
+}
+
+.tomasina img {
+  animation: heartbeat 6s ease-in-out infinite both;
+
+  clip-path: polygon(
+    30% 0%,
+    50% 15%,
+    70% 0%,
+    90% 10%,
+    100% 35%,
+    80% 70%,
+    50% 90%,
+    20% 70%,
+    0% 35%,
+    10% 10%
+  );
+
+  height: auto;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 @media (max-width: 430px) {
-  .tomasina img {
+  .tomasina figure {
     width: 100%;
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  2.5% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  4.25% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  8.25% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  11.25% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
   }
 }

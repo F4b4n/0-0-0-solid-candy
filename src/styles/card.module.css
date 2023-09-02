@@ -1,0 +1,11 @@
+.ciheader img {
+  border-radius: 50%;
+  float: left;
+}
+
+.ciheader {
+  background-color: #000;
+  color: #fff;
+  font-family: montserrat;
+  overflow: hidden;
+}

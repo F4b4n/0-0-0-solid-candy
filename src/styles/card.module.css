@@ -1,11 +1,44 @@
-.ciheader img {
-  border-radius: 50%;
-  float: left;
-}
-
-.ciheader {
+.card {
   background-color: #000;
+  border: 1px solid rgb(54, 54, 54);
   color: #fff;
   font-family: montserrat;
+  
+  width: clamp(300px, 30%, 30%);
+}
+
+.card>div {
   overflow: hidden;
+}
+.card div > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.card div div img {
+  border-radius: 50%;
+  margin: 0.5rem 1rem;
+  width: 2em;
+}
+
+.card img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.card p {
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex * {
+  margin: 0.5rem;
 }

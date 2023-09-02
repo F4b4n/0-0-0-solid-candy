@@ -6,5 +6,14 @@
 }
 
 .candygram > img {
+  margin: 1rem 0;
   width: clamp(60px, 5%, 5%);
+}
+
+.wrap {
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
 }

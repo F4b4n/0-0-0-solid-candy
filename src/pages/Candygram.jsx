@@ -8,7 +8,13 @@ function Candygram() {
       <div class={styles.candygram}>
         <img src={clogo} alt="" />
       </div>
-      <Card />
+      <div class={styles.wrap}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </>
   );
 }

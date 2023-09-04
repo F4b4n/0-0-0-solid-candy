@@ -8,7 +8,7 @@ import candymg from '../assets/imgs/candyattomasina.webp';
     <div class={styles.tomasina}>
       <object data="/src/assets/imgs/svgwaves.svg" type="image/svg+xml"></object>
       <h2>{tomasina.first.heading}</h2>
-      <figure>
+      <figure class={styles.animate}>
       <img
         src={candymg}
         

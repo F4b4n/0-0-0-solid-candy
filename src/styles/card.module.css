@@ -18,20 +18,24 @@
 }
 
 .card div div img {
+  aspect-ratio: 1;
   border-radius: 50%;
   margin: 0.5rem 1rem;
   width: 2em;
 }
 
-.card img {
+.card img, .card video {
   aspect-ratio: 4/5;
   object-fit: cover;
   width: 100%;
 }
 
-
 .card p {
   padding: 0;
+}
+
+.card p:last-child {
+  padding: 0.5rem;
 }
 
 .flex {
@@ -41,4 +45,8 @@
 
 .flex * {
   margin: 0.5rem;
+}
+
+.card span {
+  font-weight: 800;
 }

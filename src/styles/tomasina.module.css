@@ -15,24 +15,22 @@
 }
 
 .tomasina figure {
-  -webkit-filter: drop-shadow(0 0 15px yellow) drop-shadow(0 0 25px orange) drop-shadow(0 0 35px red);
-  filter: drop-shadow(0 0 15px yellow) drop-shadow(0 0 25px orange) drop-shadow(0 0 35px red);
+  -webkit-filter: drop-shadow(0 0 15px #ffff00) drop-shadow(0 0 25px #ffa500) drop-shadow(0 0 35px #ff0000);
+  filter: drop-shadow(0 0 15px #ffff00) drop-shadow(0 0 25px #ffa500) drop-shadow(0 0 35px #ff0000);
   float: right;
   width: clamp(300px, 30%, 30%);
 
+  animation: heartbeat 6s ease-in-out infinite both;
 }
 
 .tomasina figcaption {
   font-size: 0.8em;
   font-style: italic;
   text-align: end;
-
   padding: 0.5rem;
 }
 
 .tomasina img {
-  animation: heartbeat 6s ease-in-out infinite both;
-
   clip-path: polygon(
     30% 0%,
     50% 15%,

@@ -35,11 +35,15 @@
   text-shadow: 1px 1px #000;
 }
 
-h2 {
+h1, h2 {
   font-family: Pixel;
   font-size: clamp(1.5rem, 2.5vw, 6rem);
   padding: 1rem;
   text-align: center;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 2.8vw, 8rem);
 }
 
 p {

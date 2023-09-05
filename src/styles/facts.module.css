@@ -1,0 +1,31 @@
+.facts {
+  background-image: linear-gradient(90deg, #e0218a, #0300a8 70%);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.facts p {
+  width: clamp(280px, 40%, 40%);
+}
+
+.facts button {
+  width: clamp(80px, 20%, 20%);
+}
+
+.facts div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.facts button {
+  background-color: #0300a8;
+  border: #fff;
+  box-shadow: inset 0 -3em 3em #e0218a57,
+  0 0 0 2px #e0218a,
+  0.3em 0.3em 1em #e0218a;
+  color: #fff;
+  font-weight: 800;
+  padding: 0.5rem;
+} 

@@ -5,8 +5,6 @@ function Card(props) {
   
   const extension = props.local.default.split(".").pop();
 
-console.log(props.local, typeof(props.local));
-  console.log(extension, typeof(extension));
   return (
     <div class={styles.card}>
       <div>
@@ -49,7 +47,7 @@ console.log(props.local, typeof(props.local));
         </svg>
       </div>
       <p>
-        <span>Candy21</span>
+        <span>Candy21 </span>
         {props.text}
       </p>
     </div>

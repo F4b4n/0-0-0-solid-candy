@@ -1,6 +1,6 @@
 .imgx {
-  background: url(/src/assets/hero-bg.webp) no-repeat center;
   background-size: cover;
+  position: relative;
 }
 
 .imgx img {
@@ -8,4 +8,14 @@
   height: auto;
   margin: 0 auto;
   width: 50vw;
+}
+
+.imgx video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }

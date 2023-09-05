@@ -7,8 +7,16 @@ const posts = import.meta.glob("/src/assets/imgs/gram/posts/*.{webp,mp4}", {
   eager: true,
 });
 
-// console.log(posts, typeof(posts));
-console.log(Object.keys(posts));
+// Define a custom sorting function that extracts the numbers from the file names and compares them
+function compareFileNames(a, b) {
+  // Use a regular expression to match the numbers in the file names
+  const regex = /\d+/;
+  // Extract the numbers from the file names
+  const numA = parseInt(a.match(regex)[0]);
+  const numB = parseInt(b.match(regex)[0]);
+  // Compare the numbers
+  return numA - numB;
+}
 
 function Candygram() {
   return (
@@ -17,8 +25,8 @@ function Candygram() {
         <img src={clogo} alt="" />
       </div>
       <div class={styles.wrap}>
-        {/* Map over the posts object and render a Card component for each entry */}
-        {Object.entries(posts).map(([key, value], index) => (
+        {/* Sort the entries by the custom function and render a Card component for each entry */}
+        {Object.entries(posts).sort(([keyA], [keyB]) => compareFileNames(keyA, keyB)).map(([key, value], index) => (
           <Card text={textsc[index]} local={value} />
         ))}
       </div>

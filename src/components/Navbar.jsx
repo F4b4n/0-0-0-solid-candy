@@ -13,9 +13,6 @@ function Navbar() {
       <A href="/" style={{ color: getLinkColor("/") }}>
         Intro
       </A>
-      <A href="/Diary" style={{ color: getLinkColor("/Diary") }}>
-        Diary
-      </A>
       <A href="/Candygram" style={{ color: getLinkColor("/Candygram") }}>
         Candygram
       </A>

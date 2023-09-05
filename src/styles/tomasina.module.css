@@ -1,21 +1,20 @@
 .tomasina {
-  background-image: linear-gradient(30deg, #ffffff80 5%, #ffff00cc 10%, #ffa500e6 13%, #ff0000cc 14%, #ffff00cc 20%, #ffff0033 30%, #ffffff80 70%);
-  color: #000;
+  background-image: conic-gradient(from 30deg, #e0218a, #0300a8, #e0218a, #0300a8);
+  color: #fff;
   overflow: hidden;
 }
 
 .tomasina > * {
   font-family: Montserrat;
-  text-shadow: 0px 0px 3px #fff;
+  text-shadow: 0px 0px 3px #000;
 }
 
 .tomasina a {
   /* 4FF */
-  color: #000;
+  color: #fff;
 }
 
 .tomasina figure {
-  -webkit-filter: drop-shadow(0 0 15px #ffff00) drop-shadow(0 0 25px #ffa500) drop-shadow(0 0 35px #ff0000);
   filter: drop-shadow(0 0 15px #ffff00) drop-shadow(0 0 25px #ffa500) drop-shadow(0 0 35px #ff0000);
   float: right;
   width: clamp(300px, 30%, 30%);
@@ -28,6 +27,8 @@
   font-style: italic;
   text-align: end;
   padding: 0.5rem;
+  filter: none;
+  text-shadow: none;
 }
 
 .tomasina img {

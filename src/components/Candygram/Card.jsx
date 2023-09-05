@@ -2,9 +2,11 @@ import styles from "../../styles/card.module.css";
 import cprofile from "../../assets/imgs/gram/cprofile.webp";
 
 function Card(props) {
-  console.log(props.local, typeof(props.local));
-  const extension = props.local.split(".").pop();
+  
+  const extension = props.local.default.split(".").pop();
 
+console.log(props.local, typeof(props.local));
+  console.log(extension, typeof(extension));
   return (
     <div class={styles.card}>
       <div>
@@ -14,11 +16,15 @@ function Card(props) {
         </div>
 
         {extension === "webp" ? (
-          <img src={props.local} alt=""></img>
+          <img src={props.local.default} alt=""></img>
         ) : extension === "mp4" ? (
-          <video src={props.local} type="video/mp4" muted controls></video>
+          <video
+            src={props.local.default}
+            type="video/mp4"
+            muted
+            controls
+          ></video>
         ) : null}
-
       </div>
       <div class={styles.flex}>
         <svg

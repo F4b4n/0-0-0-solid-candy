@@ -1,6 +1,5 @@
 .facts {
   background-image: linear-gradient(90deg, #e0218a, #0300a8 70%);
-  overflow: hidden;
   padding: 1rem;
 }
 
@@ -9,7 +8,7 @@
 }
 
 .facts button {
-  width: clamp(80px, 20%, 20%);
+  width: clamp(80px, 10%, 10%);
 }
 
 .facts div {

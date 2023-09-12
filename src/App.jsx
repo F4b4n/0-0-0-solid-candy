@@ -5,6 +5,7 @@ import Intro from "./pages/Intro";
 import Tomasina from "./pages/Tomasina";
 import Candygram from "./pages/Candygram";
 import Facts from "./components/Facts";
+import Treat from "./components/Treat";
 import { Route, Routes } from "@solidjs/router";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Tomasina" component={Tomasina} />
       </Routes>
       <Facts />
+      <Treat />
     </>
   );
 }

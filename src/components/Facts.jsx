@@ -22,9 +22,9 @@ function Facts() {
   
   const inView = () => {
     fetchFact().then(() => {
-      myElement.scrollIntoViewIfNeeded({
+      myElement.scrollIntoView({
         behavior: "smooth",
-        block: "end",
+        block: "center",
         inline: "nearest",
       });
     });
@@ -36,7 +36,7 @@ function Facts() {
       <div id="my-element">
         <p>{loading() ? "Loading..." : fact()}</p>
         <button onclick={inView}>
-          <span>Get another fact</span>
+          Get another fact
         </button>
       </div>
     </div>

@@ -16,5 +16,8 @@ export const textsc = [
   "Just woke up. Don't talk to me. 😾 Need coffee. Or tuna. Or both. 😋",
   "No worries about tomorrow, I’m living in the now. The world is beautiful from my window. 🐾",
   "This is me at the sanctuary, when I met my humans for the first time. They looked at me with so much love and kindness, I knew they were the ones for me.  I’m so grateful to them and to all the humans who help animals in need. They are the real heroes. 🙌🏻❤️🐾",
-  "I know I look supercute in this photo, but don’t be fooled. I’m also superfast and superfun. Just wait until I get the zoomies and run around the house like a rocket. 🚀🏃🏻‍♀️🐱"
+  "I know I look supercute in this photo, but don’t be fooled. I’m also superfast and superfun. Just wait until I get the zoomies and run around the house like a rocket. 🚀🏃🏻‍♀️🐱",
+  "I’m not surprised, I’m just impressed by my own beauty. 😎",
+  "Crowns are overrated, roses are underrated. You can make a lovely crown out of roses and look like a queen. But the real beauty comes from within. And nothing brings out your inner beauty more than adopting a pet who loves you unconditionally. I will be your light in the dark. 🌹",
+  "Nothing like a good nap to make a kitty happy. 😴 But sometimes I have nightmares too. 😱 Like when I dream of a world without tuna. 😭 Or when I dream of a giant mouse chasing me. 😨 Or when I dream of losing you, my human. 😢 But then I wake up and see your face. 😊"
 ];

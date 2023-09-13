@@ -1,27 +1,19 @@
-import { createSignal, onMount } from "solid-js";
+import { Show, createResource, onMount } from "solid-js";
 import styles from "../styles/facts.module.css";
 
 function Facts() {
-  const [fact, setFact] = createSignal("");
-  const [loading, setLoading] = createSignal(false);
   let myElement;
 
   const fetchFact = async () => {
-    setLoading(true);
     const response = await fetch("https://catfact.ninja/fact");
     const json = await response.json();
-    setFact(json.fact);
-    setLoading(false);
-  };
+    return json.fact;
+  }
+ 
+  const [fact, {refetch}] = createResource(fetchFact);
 
-  onMount(() => {
-    fetchFact();
-    myElement = document.getElementById("my-element");
-  }); 
-
-  
   const inView = () => {
-    fetchFact().then(() => {
+    refetch().then(() => {
       myElement.scrollIntoView({
         behavior: "smooth",
         block: "center",
@@ -30,11 +22,18 @@ function Facts() {
     });
   };
 
+  onMount(() => {
+    fetchFact();
+    myElement = document.getElementById("my-element");
+  }); 
+  
   return (
-    <div class={styles.facts} id="container">
+    <div class={styles.facts}>
       <h2>Cat Fact</h2>
       <div id="my-element">
-        <p>{loading() ? "Loading..." : fact()}</p>
+        <Show when={fact()} fallback={<p>Loading...</p>}> 
+        <p>{fact()}</p>
+        </Show>
         <button onclick={inView}>
           Get another fact
         </button>

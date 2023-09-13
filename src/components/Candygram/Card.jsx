@@ -14,7 +14,7 @@ function Card(props) {
         </div>
 
         {extension === "webp" ? (
-          <img src={props.local.default} alt=""></img>
+          <img src={props.local.default} alt="" loading="lazy"></img>
         ) : extension === "mp4" ? (
           <video
             src={props.local.default}

@@ -1,12 +1,15 @@
+import { Route, Routes } from "@solidjs/router";
+import { lazy } from "solid-js";
 import Hero from "/src/components/Hero";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Intro from "./pages/Intro";
-import Tomasina from "./pages/Tomasina";
-import Candygram from "./pages/Candygram";
-import Facts from "./components/Facts";
-import Treat from "./components/Treat";
-import { Route, Routes } from "@solidjs/router";
+
+const Navbar = lazy(() => import("./components/Navbar"));
+const Intro = lazy(() => import("./pages/Intro"));
+const Tomasina = lazy(() => import("./pages/Tomasina"));
+const Candygram = lazy(() => import("./pages/Candygram"));
+const Facts = lazy(() => import("./components/Facts"));
+const Treat = lazy(() => import("./components/Treat"));
+
 
 function App() {
   return (

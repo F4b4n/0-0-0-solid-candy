@@ -1,6 +1,7 @@
+import { lazy } from "solid-js";
 import styles from "../styles/candygram.module.css";
 import clogo from "/src/assets/imgs/gram/clogo.webp";
-import Card from "../components/Candygram/Card";
+const Card = lazy(() => import("../components/Candygram/Card"));
 import { textsc } from "../assets/texts/candygram.js";
 
 const posts = import.meta.glob("/src/assets/imgs/gram/posts/*.{webp,mp4}", {

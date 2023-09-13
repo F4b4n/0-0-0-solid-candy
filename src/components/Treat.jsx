@@ -64,17 +64,11 @@ function Treat() {
             style="height: 60px !important;width: 217px !important;"
           ></img>
         </a>
-        <a
-          href="https://www.paypal.com/donate?token=fiFgCpShRRsr9hHQVnRw4b4hv4m-CImj22by2uunfaNdC7b9UlBVY6-a8rSyIZeVGIWBn61dXkYAZ5hG"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-rect-paypal-60px.png"
-            alt="Buy Me A Coffee"
-            style="height: 60px !important;width: 217px !important;"
-          ></img>
-        </a>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener noreferrer" > 
+                        <input type="hidden" name="cmd" value="_s-xclick"></input>
+                        <input type="hidden" name="hosted_button_id" value="WHDLVR5XVKMWE"></input>
+                        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-rect-paypal-60px.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+        </form>
       </div>
     </div>
   );

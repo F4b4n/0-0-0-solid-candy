@@ -17,7 +17,6 @@ import { For } from "solid-js";
       />
       <figcaption>The very first known picture of Candy.</figcaption>
       </figure>
-
       <For each={tomasina.paragraphs}>
         {(paragraph) => (
           <p>{paragraph}</p>

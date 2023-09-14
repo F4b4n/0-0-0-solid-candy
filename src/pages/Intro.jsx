@@ -5,8 +5,8 @@ import { For } from 'solid-js';
 function Intro() {
   return (
     <div class={styles.intro}>
-      <For each={intro}>{(paragraph) => (
-          <p>{paragraph}</p>
+      <For each={intro}>{(intro) => (
+          <p>{intro}</p>
         )}
       
       </For>

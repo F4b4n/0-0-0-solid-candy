@@ -23,7 +23,6 @@ function Facts() {
   };
 
   onMount(() => {
-    fetchFact();
     myElement = document.getElementById("my-element");
   }); 
   

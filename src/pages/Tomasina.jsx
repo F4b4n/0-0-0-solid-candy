@@ -1,6 +1,7 @@
 import { tomasina } from "../assets/texts/tomasina.js";
 import styles from '../styles/tomasina.module.css';
 import candymg from '../assets/imgs/candyattomasina.webp';
+import { For } from "solid-js";
 
  function Tomasina() {
 
@@ -16,9 +17,12 @@ import candymg from '../assets/imgs/candyattomasina.webp';
       />
       <figcaption>The very first known picture of Candy.</figcaption>
       </figure>
-      {tomasina.paragraphs.map((paragraph) => (
-        <p>{paragraph}</p>
-      ))}
+
+      <For each={tomasina.paragraphs}>
+        {(paragraph) => (
+          <p>{paragraph}</p>
+        )}
+      </For>
       <p>And the rest is catstory.. thank you <a href="http://tomasinasanctuary.org/" target="_blank" rel="noopener noreferrer">TOMASINCA CAT SANCTUARY!</a></p>
     </div>
   );

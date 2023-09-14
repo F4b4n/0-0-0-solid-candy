@@ -1,14 +1,15 @@
 import styles from '../styles/intro.module.css';
 import { intro } from "../assets/texts/intro.js";
-
-// console.log({texts});
+import { For } from 'solid-js';
 
 function Intro() {
   return (
     <div class={styles.intro}>
-      {intro.map((paragraph) => (
-        <p>{paragraph}</p>
-      ))}
+      <For each={intro}>{(paragraph) => (
+          <p>{paragraph}</p>
+        )}
+      
+      </For>
     </div>
   );
 };

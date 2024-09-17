@@ -20,23 +20,15 @@ function Treat() {
         happiness. 😊
       </p>
       <p>
-        🙏You can buy me a treat via{" "}
+        🙏 My business human often sends treats to my friends in Tomasina Cat
+        Sanctuary, where I used to live. 🐾 You can also donate to the sanctuary
+        via PayPal or a{" "}
         <a
-          href="https://www.buymeacoffee.com/luckycandy"
+          href="tomasinasanctuary.org/?contactUz=YES&divSection=helpMe"
           target="_blank"
           rel="noopener noreferrer"
         >
-          buymeacoffe.com
-        </a>{" "}
-        and my business human will share the treat with my friends in Tomasina
-        Cat Sanctuary, where I used to live. 🐾 You can also donate directly to
-        the sanctuary via{" "}
-        <a
-          href="http://tomasinasanctuary.org/?contactUz=YES&divSection=helpMe"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          PayPal
+          bank transfer
         </a>{" "}
         and help them provide food, shelter, and medical care for hundreds of
         cats in need. Thank you for being a cat lover! 😻
@@ -53,21 +45,25 @@ function Treat() {
       </p>
       <p>🐾 Love, Candy 🐾</p>
       <div>
-        <a
-          href="https://www.buymeacoffee.com/luckycandy"
+        <form
+          action="https://www.paypal.com/cgi-bin/webscr"
+          method="post"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png"
-            alt="Buy Me A Coffee"
-            style="height: 60px !important;width: 217px !important;"
-          ></img>
-        </a>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener noreferrer" > 
-                        <input type="hidden" name="cmd" value="_s-xclick"></input>
-                        <input type="hidden" name="hosted_button_id" value="WHDLVR5XVKMWE"></input>
-                        <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-rect-paypal-60px.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+          <input type="hidden" name="cmd" value="_s-xclick"></input>
+          <input
+            type="hidden"
+            name="hosted_button_id"
+            value="WHDLVR5XVKMWE"
+          ></input>
+          <input
+            type="image"
+            src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-rect-paypal-60px.png"
+            border="0"
+            name="submit"
+            alt="PayPal - The safer, easier way to pay online!"
+          ></input>
         </form>
       </div>
     </div>

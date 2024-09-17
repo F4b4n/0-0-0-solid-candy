@@ -22,5 +22,17 @@ export const textsc = [
   "Nothing like a good nap to make a kitty happy. 😴 But sometimes I have nightmares too. 😱 Like when I dream of a world without tuna. 😭 Or when I dream of a giant mouse chasing me. 😨 Or when I dream of losing you, my human. 😢 But then I wake up and see your face. 😊",
   "I know what you’re thinking: ‘How can such a small cat need such a big suitcase?’ 🧳 Well, let me tell you: it’s not the size of the suitcase that matters, it’s what’s inside that counts. And what’s inside is me and my dreams. And some treats too. 💭😻",
   "I’m not a morning cat 🌅, but I’m a hungry cat. And when I’m hungry, I’m not afraid to use my voice. Loudly. 🔊 And repeatedly. Until you give me what I want. Which is food. And maybe some cuddles too. 😾 But don’t worry, I’m a nice girl, I’m just kidding. I’m yawning, I should be in my bed but I love hanging out with my Humans. 😻",
-  "I’m not sleeping 😴, I’m meditating. On the meaning of life, the purpose of cats, the nature of dreams, the taste of treats, the sound of birds, the smell of your feet 🐱, and the feel of your love. I also need to recharge my batteries .🔋For another day of adventure and mischief and cuteness overload. For another day of being your cat. 🐾😻"
+  "I’m not sleeping 😴, I’m meditating. On the meaning of life, the purpose of cats, the nature of dreams, the taste of treats, the sound of birds, the smell of your feet 🐱, and the feel of your love. I also need to recharge my batteries .🔋For another day of adventure and mischief and cuteness overload. For another day of being your cat. 🐾😻",
+  "The world looks so peaceful from up here. 🌍 Just me, the flowers, and some deep kitty thoughts. 🐾💭",
+  "Obviously, the best seat in the house is on top of these papers. 📝 And the best view? Watching the human play video games. 🎮 I’m a productivity coach and entertainment critic in one! 😹",
+  "In sleep, we find the answers to life’s greatest questions. 💤 Like, why do humans work so much when naps exist? 😸 Sometimes, it’s best to just let go, mouth open, and dream of endless treats and cozy blankets. 🐾💭",
+  "You dangle it, I destroy it. 🎣 It’s called teamwork—well, me doing all the work and you watching my genius in action. 😼🐾",
+  "Snug as a bug, but always ready for action! 🛏️👀 My ears are tuned in, just in case you say the magic word... 'treat.' 😸",
+  "Wow, all this time on the computer and you’re still not playing with me? Maybe I need to debug your priorities. 🐾💻",
+  "Nothing says ‘winter snuggles’ like a warm leg to sleep on. 🦵💞 My human's leg = my personal radiator. 😸❄️",
+  "Just having a little chat with my reflection. 🪞 It says I’m the cutest cat ever. Who am I to argue? 😽🛁",
+  "All that code and not one mouse on the screen? What a waste of time. Let me show you how it’s done. 🐭💻",
+  "Grace, poise, and a touch of math—just another day in the life of a classy kitty. 🧩🐾",
+  "Caught in the spell of my cozy magic pillow. Auntie knows how to make nap time extraordinary. 🌟🛏️",
+  "When your human’s hand becomes the ultimate toy, you just have to bite and play! 🖐️🐱",
 ];
